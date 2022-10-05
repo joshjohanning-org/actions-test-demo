@@ -43,5 +43,5 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build]
     steps:
-    - run: echo "hello world!"
+    - run: exit 1
         
